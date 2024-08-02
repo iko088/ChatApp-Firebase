@@ -54,7 +54,7 @@ const Detail = () => {
       <div className="user">
         <img src={isCurrentUserBlock || isBlockedByUser ? "/avatar.png" : user?.avatar } alt="User Avatar" />
         <h2>{ isCurrentUserBlock || isBlockedByUser ? "none" :  user?.username }</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
+        {/* <p>Lorem ipsum dolor sit amet.</p> */}
       </div>
       <div className="info">
         {/* <div className="option">
