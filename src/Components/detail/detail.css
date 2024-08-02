@@ -2,6 +2,7 @@
   display: none; /* Safari and Chrome */
 }
 .detail {
+  position: relative;
   flex: 1;
   overflow: scroll;
   scrollbar-width: none; /* Firefox */
@@ -21,6 +22,8 @@
     }
   }
   .info {
+    position: absolute;
+    bottom: 0;
     padding: 20px;
     display: flex;
     flex-direction: column;
